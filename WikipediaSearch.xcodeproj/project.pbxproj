@@ -31,10 +31,10 @@
 		2258F9641D6DB81100805DF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2258F9671D6DB81100805DF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2258F9691D6DB81100805DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D4BB55F1FCD5D9D00F42BDE /* WikiResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikiResult.h; sourceTree = "<group>"; };
-		5D4BB5601FCD5D9D00F42BDE /* WikiResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikiResult.m; sourceTree = "<group>"; };
-		5D4BB5611FCD5D9D00F42BDE /* WikiResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikiResultModel.h; sourceTree = "<group>"; };
-		5D4BB5621FCD5D9D00F42BDE /* WikiResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikiResultModel.m; sourceTree = "<group>"; };
+		5D4BB55F1FCD5D9D00F42BDE /* WikiResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WikiResult.h; path = Model/WikiResult.h; sourceTree = "<group>"; };
+		5D4BB5601FCD5D9D00F42BDE /* WikiResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WikiResult.m; path = Model/WikiResult.m; sourceTree = "<group>"; };
+		5D4BB5611FCD5D9D00F42BDE /* WikiResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WikiResultModel.h; path = Model/WikiResultModel.h; sourceTree = "<group>"; };
+		5D4BB5621FCD5D9D00F42BDE /* WikiResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WikiResultModel.m; path = Model/WikiResultModel.m; sourceTree = "<group>"; };
 		5D4BB5651FCD5DB600F42BDE /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		5D4BB5661FCD5DB600F42BDE /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		5D4BB5681FCD5DE500F42BDE /* ResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultCell.m; sourceTree = "<group>"; };
@@ -42,8 +42,8 @@
 		5D4BB56A1FCD5DE500F42BDE /* ResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultCell.h; sourceTree = "<group>"; };
 		5D4BB56D1FCD5E0200F42BDE /* WebRequestMangaer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebRequestMangaer.m; sourceTree = "<group>"; };
 		5D4BB56E1FCD5E0200F42BDE /* WebRequestMangaer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebRequestMangaer.h; sourceTree = "<group>"; };
-		9C91D5882128809F00D12FEB /* WikiSearchService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WikiSearchService.h; sourceTree = "<group>"; };
-		9C91D5892128809F00D12FEB /* WikiSearchService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WikiSearchService.m; sourceTree = "<group>"; };
+		9C91D5882128809F00D12FEB /* WikiSearchService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WikiSearchService.h; path = Services/WikiSearchService.h; sourceTree = "<group>"; };
+		9C91D5892128809F00D12FEB /* WikiSearchService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WikiSearchService.m; path = Services/WikiSearchService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 				2258F95E1D6DB81100805DF1 /* MainViewController.h */,
 				2258F95F1D6DB81100805DF1 /* MainViewController.m */,
 			);
-			name = ViewControllers;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		5D4BB55C1FCD5D6600F42BDE /* Views */ = {
@@ -117,7 +117,7 @@
 				5D4BB5681FCD5DE500F42BDE /* ResultCell.m */,
 				5D4BB5691FCD5DE500F42BDE /* ResultCell.xib */,
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		5D4BB55D1FCD5D7C00F42BDE /* RestApi */ = {
@@ -126,7 +126,7 @@
 				5D4BB56E1FCD5E0200F42BDE /* WebRequestMangaer.h */,
 				5D4BB56D1FCD5E0200F42BDE /* WebRequestMangaer.m */,
 			);
-			name = RestApi;
+			path = RestApi;
 			sourceTree = "<group>";
 		};
 		5D4BB55E1FCD5D8300F42BDE /* Model */ = {
